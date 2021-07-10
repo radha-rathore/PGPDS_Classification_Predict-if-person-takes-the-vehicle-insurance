@@ -11,28 +11,7 @@
 ## Objective:
 Building a model to predict whether a customer would be interested in Vehicle Insurance is extremely helpful for the company because it can then accordingly plan its communication strategy to reach out to those customers and optimize its business model and revenue.
 
-We have information about:
-
-FEATURES:
-
-Gender- Male/Female
-Age - Age of the vehicle owner
-Driving_License - 1: Has DL, 0: No DL
-Region_Code
-Previously_Insured - 0/1
-Vehicle_Age - 1 to 2 Year, <1 year, >2 years
-Vehicle_Damage - Yes/ No
-Annual_Premium
-Policy_Sales_Channel
-Vintage - This metric represents the number of days a customer has been insured up until now and is therefore ordinal in nature.
-id - Id of the user
-TARGET :
-
-Response - 0/1
-
 - The dataset is highly imbalanced, so I have done resampling of data before prediction.
 
 ## Evaluation metric
-Recall is the metric of focus here because I want to correctly and accurately identify those people who will actually take the insurance. I want to increase predicted true values (True positive) maximum when compared to actual true values (True positive+ False negative).
-
-# I want to reduce false negatives in order to avoid losing potential customers
+Recall is the metric of focus here because I want to correctly and accurately identify those people who will actually take the insurance. I want to increase predicted true values (True positive) maximum when compared to actual true values (True positive+ False negative). I want to reduce false negatives in order to avoid losing potential customers.
